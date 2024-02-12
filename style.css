@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(8, 8, 29);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 80px;
+    background-color: orangered;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: -290px;
+    padding: auto;
+    cursor: pointer;
+
+}
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: orange;
+    margin-left: -100px;
+    padding: auto;
+    cursor: pointer;
+
+}
+.container{
+    width: 100%;
+    max-width: 450px;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(44, 36, 36);
+    border-radius: 5px;
+    width: 420px;
+    height: 70px;
+    padding: auto;
+    gap: 3px;
+    cursor: pointer;
+}
+.text{
+    padding: 5px 5px;
+    width: 100%;
+    max-width: 310px;
+    border-radius: 5px;
+    background-color: transparent;   
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+.one-t{
+    color: royalblue;
+}
+.text .item{
+    color: rgb(180, 88, 180);
+}
+.text .value{
+    color: orange;
+}
+.rotate, .scale, .matrix,  .translate,.skew{
+    width: 60px;
+    height: 60px;
+    background-color: orangered;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+.rotate:hover{
+    transform: rotate(20deg);
+}
+.scale:hover{
+    transform: scale(0.5);
+}
+.matrix:hover{
+    transform: matrix(0,1,1,0,0,0);
+}
+.skew:hover{
+    transform: skew(10deg);
+}
+.translate:hover{
+    transform: translate(10px);
+}
